@@ -1,3 +1,5 @@
+require 'bundler/setup'
+
 # This class represents a todo item and its associated
 # data: name and description. There's also a "done"
 # flag to show whether this todo item is done.
@@ -35,6 +37,8 @@ class Todo
       description == otherTodo.description &&
       done == otherTodo.done
   end
+
+
 end
 
 # This class represents a collection of Todo objects.
